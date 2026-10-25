@@ -45,7 +45,7 @@ a{color:var(--accent)}
 }
 .hero-overlay{
   position:absolute;inset:0;z-index:1;
-  background:linear-gradient(180deg,rgba(31,35,38,.55) 0%,rgba(31,35,38,.78) 65%,rgba(31,35,38,.9) 100%);
+  background:linear-gradient(90deg,rgba(24,27,30,.78) 0%,rgba(24,27,30,.55) 45%,rgba(24,27,30,.12) 100%);
 }
 .hero-inner{
   position:relative;z-index:2;
@@ -199,3 +199,5 @@ a{color:var(--accent)}
   .footer{padding:56px 0 60px}
   .sticky-call{display:none}
 }
+
+@media (max-width:760px){.hero-overlay{background:linear-gradient(180deg,rgba(24,27,30,.5) 0%,rgba(24,27,30,.68) 100%)}}
